@@ -1,0 +1,314 @@
+:root {
+    --blue : rgb(37, 37, 203) ;
+    --black: rgba(0, 0, 0, 0.652) ;
+    --red: rgb(160, 91, 91) ;
+    
+}
+*{
+    font-family: 'exo', sans-serif;
+}
+
+.mukta{
+    font-family: 'Mukta', sans-serif; }
+
+.Exo{
+   font-family: 'Exo', sans-serif; }
+
+.Nunito Sans{
+    font-family: 'Nunito Sans', san-serif;
+}   
+        
+.text-black{
+        color: var(--black);
+    }
+
+.text-blue{
+        color: var(--blue);
+    }
+.text-red{
+    color: var(--red);
+}
+/*
+font-family: 'Exo', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+/* navBAr */
+
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.navbar-custom{
+    background-color: transparent;
+    transition: 2sec all;
+    height: 80px;
+}
+.navbar-link{
+    color: var(--black);
+}
+
+.navbar-link:hover{
+    color: var(--blue);
+}
+
+.active-custom{
+    color: var(--blue);
+}
+
+/*   */ 
+/* HEADER*/ 
+
+.headerCustom{
+
+    min-height:90vh;
+    background:url(./media/mano.jpeg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--red);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-outline:hover {background-color: var(--red)}
+
+.btn-outline:active {
+  background-color:var(--red);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.pupini{ 
+    height: 400px;
+    width: 300px;
+    margin-left: 80px;
+    color: var(--blue);
+}
+  
+.pupini{
+    animation-name: girapupi;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girapupi{
+ 
+ 0% {transform: translateY(360deg);} 
+   100%{transform: rotateY(360deg);}
+}   
+
+/* DICONO DI NOI */
+
+  .commenti{
+    font-style: Exo;
+    color: var(--blue);
+  }
+
+  .antonio{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+  }
+
+  .roberta{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+  }
+
+  .giovanni{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+  }
+
+  .francesca{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+  }
+/* FOOTER*/
+
+.containers{
+    background-image:url(./media/mountains2.png);
+    background-color:var(--red);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.contatti{
+    list-style-type: none;
+    display: inline;
+    margin-left: 34px;
+    margin: 3px;
+    cursor: alias;
+}
+/* HEADER ANNUNCI*/
+
+.paginaAnnunci{
+    min-height:50vh;
+    background: url(./media/manomodificata.gif);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.manomodificata{
+ margin-left: 200px;
+}
+
+
+/* ANNUNCI */
+
+.card-annunci{
+  height: 350px;
+  width: 30% ;
+  border: 7px solid var(--red);
+  border-radius: 10px;
+  background-color: grey;
+  padding: 10px;
+}
+.card-head{
+  min-height :150px;
+  text-align: center;
+}
+
+.img-card-custom{
+height: 150px;
+width: 150px;
+
+}
+
+
+/* CATEGORIE */
+
+.category-card{
+    padding-top: 15px;
+    border: solid 10px var(--blue);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* RANGE */
+ .w-60 {
+    width: 60%;
+
+ }
+
+ /* SWIPER */
+
+ .swiper {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+
+ /* back to the top button */
+  .myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 5px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color:transparent; 
+    color: var(--black);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .myBtn:hover {
+    background-color: yellow; 
+    height: 50px;
+    width: 120px;
+  }
+
+
+
+
+  .chiSiamo{
+    background: url(./media/fog.jpg);
+    min-height:90vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+  }
+
+
+  /* DREAM TEAM */
+
+  .zio-paperone{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .topolino{
+    width: 400px;
+    height: 400px;
+    
+  }
+  .paperino{
+    width: 400px;
+    height: 400px;
+  }
+ 
+
+
+  .qui-quo-qua{
+    width: 400px;
+    height: 400px;
+  }
+
